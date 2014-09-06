@@ -6,4 +6,4 @@ jQuery ->
     $("#instructions").html "Click for an excuse"
     $("html").click ->
         $("#instructions").html ""
-        $("#excuses").html new_excuse()
+        $("#excuses").html $("#excuses").html() + '<div class="bubble">' + new_excuse() + '</div>'

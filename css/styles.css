@@ -17,7 +17,7 @@ h1, p {
     background-color: #62C5D9;
     border-radius: 5px;
     box-shadow: 0 0 6px #B2B2B2;
-    display: inline-block;
+    display: block;
     padding: 10px 18px;
     position: relative;
     vertical-align: top;
