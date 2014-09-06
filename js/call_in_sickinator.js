@@ -13,7 +13,7 @@
   };
 
   jQuery(function() {
-    $("#instructions").html("foo");
+    $("#instructions").html("Click for an excuse");
     return $("html").click(function() {
       $("#instructions").html("");
       return $("#excuses").html(new_excuse());
