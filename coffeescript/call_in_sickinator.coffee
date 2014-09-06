@@ -1,3 +1,3 @@
 jQuery ->
 
-    $("#instructions").html("foo")
+    $("#instructions").html "foo"
