@@ -15,7 +15,8 @@
   jQuery(function() {
     $("#instructions").html("foo");
     return $("html").click(function() {
-      return alert(new_excuse());
+      $("#instructions").html("");
+      return $("#excuses").html(new_excuse());
     });
   });
 
