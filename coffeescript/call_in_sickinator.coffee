@@ -1,4 +1,4 @@
-excuses = ["I'm sick", "My car broke down"]
+excuses = ["I'm sick", "My car won't start"]
 
 new_excuse = () -> if Math.random() < 0.5 then excuses[0] else excuses[1]
 
